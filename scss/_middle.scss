@@ -1,0 +1,49 @@
+.loading-svg {
+  height: 3rem;
+}
+
+.ip-info-container {
+  transform: translateY(-50%);
+  display: flex;
+  width: 75%;
+  justify-content: space-between;
+  padding: 2.3rem 2rem;
+  margin: 0 auto;
+  background: #fff;
+  height: 10rem;
+  border-radius: 1.5rem;
+
+  .ip-property {
+    width: 25%;
+    padding-right: .75rem;
+    padding-left: 2rem;
+    border-right: 1px solid $grey;
+    height: 100%;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+      border-right: none;
+    }
+
+    * {
+      word-wrap: break-word;
+    }
+
+    .ip-property-title {
+      transform: translateY(-50%);
+      text-transform: uppercase;
+      font-size: .8rem;
+      color: $grey;
+      letter-spacing: .15em;
+    }
+
+    .ip-property-value {
+      font-size: 1.6rem;
+      color: $darkGrey;
+    }
+  }
+}

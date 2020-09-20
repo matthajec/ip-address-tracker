@@ -1,17 +1,6 @@
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  height: 100vh;
-}
-
 header {
-  height: 20rem;
-  background-image: url("../images/pattern-bg.png");
+  height: 18rem;
+  background-image: url("/images/pattern-bg.png");
   background-size: cover;
   padding: 2rem;
   display: -webkit-box;
@@ -28,6 +17,8 @@ header {
 
 header .title {
   color: #fff;
+  font-weight: 500;
+  font-size: 2.25rem;
 }
 
 header .ip-input {
@@ -42,24 +33,95 @@ header .ip-input {
 }
 
 header .ip-input * {
-  font-size: 1.6rem;
-  padding: .75rem;
+  font-size: 18px;
+  padding: 1.25rem;
   border: none;
   outline: none;
 }
 
-header .ip-input .ip-tb {
-  border-radius: 1em 0 0 1em;
+header .ip-input .ip-textbox {
+  border-radius: .8rem 0 0 .8rem;
   width: 40%;
   min-width: 28rem;
+  color: #2b2b2b;
+  font-weight: 500;
 }
 
 header .ip-input .submit-btn {
-  border-radius: 0 1em 1em 0;
+  border-radius: 0 .8rem .8rem 0;
   width: 3%;
   min-width: 3rem;
   font-weight: bold;
-  background-color: #000;
+  background-color: #2b2b2b;
   color: #fff;
+}
+
+.loading-svg {
+  height: 3rem;
+}
+
+.ip-info-container {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 75%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2.3rem 2rem;
+  margin: 0 auto;
+  background: #fff;
+  height: 10rem;
+  border-radius: 1.5rem;
+}
+
+.ip-info-container .ip-property {
+  width: 25%;
+  padding-right: .75rem;
+  padding-left: 2rem;
+  border-right: 1px solid #969696;
+  height: 100%;
+}
+
+.ip-info-container .ip-property:first-child {
+  padding-left: 0;
+}
+
+.ip-info-container .ip-property:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+
+.ip-info-container .ip-property * {
+  word-wrap: break-word;
+}
+
+.ip-info-container .ip-property .ip-property-title {
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #969696;
+  letter-spacing: .15em;
+}
+
+.ip-info-container .ip-property .ip-property-value {
+  font-size: 1.6rem;
+  color: #2b2b2b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #2b2b2b;
 }
 /*# sourceMappingURL=main.css.map */
