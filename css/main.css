@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 20rem;
+  background-image: url("../images/pattern-bg.png");
+  background-size: cover;
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .title {
+  color: #fff;
+}
+
+header .ip-input {
+  margin-top: 2rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .ip-input * {
+  font-size: 1.6rem;
+  padding: .75rem;
+  border: none;
+  outline: none;
+}
+
+header .ip-input .ip-tb {
+  border-radius: 1em 0 0 1em;
+  width: 40%;
+  min-width: 28rem;
+}
+
+header .ip-input .submit-btn {
+  border-radius: 0 1em 1em 0;
+  width: 3%;
+  min-width: 3rem;
+  font-weight: bold;
+  background-color: #000;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
